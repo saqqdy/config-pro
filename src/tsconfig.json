@@ -1,0 +1,12 @@
+{
+    "extends": "../tsconfig.json",
+    "include": ["./**/*.ts", "../typings", "./*.d.ts"],
+    "exclude": ["node_modules", "**/__tests__", "../temp"],
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "../lib",
+        // "module": "commonjs",
+        // "lib": ["ESNext", "dom"],
+        "sourceMap": true
+    }
+}
